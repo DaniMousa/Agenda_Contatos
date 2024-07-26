@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="subContainer">
+            <div class="topHeader">
+                <h1>Agenda</h1>
+            </div>
+            <form id="formContatos">
+                <input type="text" id="namePerson" placeholder="Nome" pattern="[a-zA-ZÀ-ž\s]+" maxlength="50"  required>
+                <input type="tel" id="telephone" placeholder="Telefone" maxlength="10" pattern="[0-9]+" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>
+                            Nome
+                        </th>
+                        <th>
+                            Telefone
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
